@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
     }
     fun iniAction(){
-       b
+
     }
 
     fun login(){
