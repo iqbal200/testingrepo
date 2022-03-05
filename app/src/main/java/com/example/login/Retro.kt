@@ -10,7 +10,7 @@ class Retro {
         val gson = GsonBuilder().setLenient().create()
 
         return Retrofit.Builder()
-            .baseUrl("http://localhost:5000/")
+            .baseUrl("https://62203ad3ce99a7de19536624.mockapi.io/api/register")
             .addConverterFactory(GsonConverterFactory.create(gson))
             .build()
     }

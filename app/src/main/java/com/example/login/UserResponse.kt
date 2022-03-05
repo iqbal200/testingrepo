@@ -19,6 +19,6 @@ class UserResponse {
 
         @SerializedName("token")
         @Expose
-        val token: String? = null
+        val password: String? = null
     }
 }

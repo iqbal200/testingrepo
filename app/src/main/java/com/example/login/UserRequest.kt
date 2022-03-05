@@ -6,9 +6,9 @@ import com.google.gson.annotations.SerializedName
 class UserRequest {
     @SerializedName("email")
     @Expose
-    val email: String? = null
+    var email: String? = null
 
     @SerializedName("password")
     @Expose
-    val password: String? = null
+    var password: String? = null
 }
